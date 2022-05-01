@@ -9,6 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyFormsApp", "TastyForms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyFormsApp.Tests", "TastyFormsApp.Tests\TastyFormsApp.Tests.csproj", "{582DFB03-1624-414F-BCD4-4AF30C7D5F1B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{B554C8F5-30F1-4868-8039-EB0CBBA1714C}"
+	ProjectSection(SolutionItems) = preProject
+		build.sh = build.sh
+		build.ps1 = build.ps1
+		build.cake = build.cake
+		README.md = README.md
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

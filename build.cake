@@ -1,8 +1,10 @@
-#addin "Cake.Xamarin"
-#addin "Cake.AppCenter"
-#addin "Cake.Plist"
-#addin "Cake.AndroidAppManifest"
-#addin "Cake.Fastlane"
+//#addin "Cake.Xamarin"
+//#addin nuget:?package=Cake.Core&version=2.0.0
+#addin nuget:?package=Cake.Xamarin&version=4.0.0
+#addin nuget:?package=Cake.AppCenter&version=1.3.1
+#addin nuget:?package=Cake.Plist&version=0.7.0
+#addin nuget:?package=Cake.AndroidAppManifest&version=1.1.2
+#addin nuget:?package=Cake.Fastlane&version=0.7.1
 #tool "nuget:?package=GitVersion.CommandLine&version=5.0.1" // Reference older version because newest doesn't work on macOS.
 
 var target = Argument("target", (string)null);
